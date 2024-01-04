@@ -8,8 +8,9 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 @EnableWebMvc
 public class PracticaAngelTendeM5AApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(PracticaAngelTendeM5AApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(PracticaAngelTendeM5AApplication.class, args);
+        System.out.println("------ Conexion exitosa ------");
+    }
 
 }
